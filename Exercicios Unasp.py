@@ -133,6 +133,24 @@ for x in range(9):
 
 
 
+#Escreva um programa em criar a tabuada de um número entre 1 e 10 fornecido pelo usuário.
+x = int(input('Digite o numero que voce quer a tabuada: '))
+for count in range(10):
+  resultado = x * (count + 1)
+  print(f'{x} * {count + 1} = {resultado}') 
+  
+  
+  
+# Nos primeiros dois anos, um ano canino é igual a 10.5 anos humanos. Depois disso, cada ano do cão equivale a 4 anos humanos.
+# Crie um programa que pergunte ao usuário a idade do cachorro e retorne a idade do cachorro em anos caninos.
+idade = float(input('Digite a idade do cachorro: '))
+if idade <= 2:
+  print(idade * 10.5)
+elif idade > 2:
+  print((idade * 4) + 21)
+  
+
+
 # Crie um programa que, baseado na idade do usuário, indica se este pode votar na eleição de 2022 e se o voto é facultativo ou obrigatório.
 idade = int(input('Digite sua idade: '))
 if idade >= 18:
@@ -232,6 +250,25 @@ if sinal == '%':
   print(num1 % num2)
 
 
+ 
+#Escreva um programa para verificar se um triângulo é equilátero, isósceles ou escaleno.
+# Um triângulo equilátero é um triângulo em que os três lados são iguais.
+# Um triângulo escaleno é um triângulo que tem três lados desiguais.
+# Um triângulo isósceles é um triângulo com (pelo menos) dois lados iguais. 
+plado = input('1°: ')
+slado = input('2°: ')
+tlado = input('3°: ')
+
+if plado == slado == tlado:
+  print('Triangulo equilátero ')
+
+elif plado != slado != tlado:
+  print('Triangulo escaleno')
+
+elif plado == slado or slado == tlado or plado == tlado:
+  print('triângulo isósceles')
+  
+  
 
 # Escreva um programa para jogar jokenpô com o computador.
 import random
