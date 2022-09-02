@@ -147,7 +147,7 @@ idade = float(input('Digite a idade do cachorro: '))
 if idade <= 2:
   print(idade * 10.5)
 elif idade > 2:
-  print((idade * 4) + 21)
+  print((idade-2) * 4) + 21)
   
 
 
