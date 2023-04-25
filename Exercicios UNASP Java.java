@@ -1,3 +1,5 @@
+// ------------------------- ESTRUTURA DE DADOS ------------------------ \\
+
 // Leia do teclado um valor inteiro, positivo e calcule a média dos números pares entre 0
 // e o valor informado pelo usuário. Imprima o resultado da seguinte forma: “A media dos
 // primeiros {n} números eh {valor}”, sendo {n} o valor informado e {valor} o valor
@@ -329,4 +331,4 @@ public static void main(String[] args) {
     boolean resposta = isPalindromo(palavra);
     System.out.println(resposta);
   }
-}
+}	   
